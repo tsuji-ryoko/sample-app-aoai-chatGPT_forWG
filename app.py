@@ -42,7 +42,7 @@ load_dotenv()
 UI_TITLE = "作業効率化WG"
 UI_LOGO = os.environ.get("UI_LOGO")
 #UI_CHAT_LOGO = os.environ.get("UI_CHAT_LOGO")
-UI_CHAT_LOGO = os.environ.get("UI_CHAT_LOGO2")
+UI_CHAT_LOGO = ./wgimageicon.png
 
 UI_CHAT_TITLE = os.environ.get("UI_CHAT_TITLE") or "Start chatting"
 UI_CHAT_DESCRIPTION = (
